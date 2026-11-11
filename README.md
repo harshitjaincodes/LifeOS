@@ -1,4 +1,4 @@
-# LifeOS 🚀
+# LifeOS 
 
 **LifeOS** is a personal productivity web application built with React. It helps users manage daily tasks, track habits, set goals, and organize focused work sessions through a modern dashboard.
 
@@ -122,11 +122,6 @@ LifeOS uses browser LocalStorage for authentication and data persistence. Each u
 ## 👨‍💻 Developer
 
 **Harshit Jain**
-
-B.Tech Computer Science & Engineering  
-BML Munjal University
-
-[GitHub Profile](https://github.com/harshitjaincodes)
 
 ---
 
