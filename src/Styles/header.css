@@ -1,0 +1,80 @@
+.public-header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: rgba(9, 10, 13, 0.85);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border-color);
+  z-index: 1000;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 24px;
+}
+
+/* Logo */
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+.logo-symbol {
+  color: var(--accent);
+  font-size: 18px;
+}
+
+/* Centered Navigation Links */
+.header-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.header-links a {
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.header-links a:hover,
+.header-links a.active {
+  color: var(--text-primary);
+}
+
+/* Header Button */
+.header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.signup-btn {
+  background: var(--accent-blue);
+  color: #ffffff;
+  padding: 8px 18px;
+  border-radius: var(--radius-sm);
+  font-size: 13.5px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.signup-btn:hover {
+  background: var(--accent-blue-hover);
+  box-shadow: 0 0 15px rgba(2, 132, 199, 0.4);
+}
+
+@media (max-width: 768px) {
+  .header-links {
+    display: none;
+  }
+}
